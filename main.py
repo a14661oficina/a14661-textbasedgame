@@ -15,8 +15,8 @@ if password == "TY6":
 if password == "6TY": 
   print("\nBoa escolha!! ")
   print("\nVamos começar por explorar a floresta.")
-  escolha3 = (input("\nEncontras uma caverna com uma fogueira acessa, vamos entrar."))
-  print("\nDentro da caverna encontras um caixa velha mas com varias luzes a sair dela.")
+  print("\nEncontras uma caverna com uma fogueira acessa, vamos entrar.")
+  print("Dentro da caverna encontras um caixa velha mas com varias luzes a sair dela.")
   escolha5 = (input("Queres abrir? (sim):"))
   if escolha5 == "sim":
    print("\nEncontras um mapa da floresta onde te da indicações para chegares ao tesouro!")
@@ -45,7 +45,7 @@ if password == "6TY":
     print("\nBarbaro:")
     print("-Ta tudo mano, mais um a procura do grande tesouro?, tenho uma proposta para ti.")
     print("\nSe conseguires matar o rei da tribo, eu dou te chave do bau.")
-    escolhabarbaro = (input("\nQueres aceitar?:"))
+    escolhabarbaro = (input("\nQueres aceitar? (sim):"))
     if escolhabarbaro == "sim":
      print("\nO Barabro deu te um escudo de prata, e um arco e flecha")
      print("Tambem te deu as indicações certas da casa do rei da tribo.")
@@ -71,8 +71,8 @@ if password == "6TY":
        print("\nContinuas a caminhar pela floresta, ate que avistas uma casa na arvore")
        print("\nTem umas escadas.")
        print("\nDecides subir.")
-       print("Dentro da casa notas que é muito velha e que tem um cheiro muito mau, mas notas que uma musica muita baixa vem dentro de uma caixa.")
-       print("\nTenstas procurar a caixa.")
+       print("Dentro da casa notas que é muito velha e que tem um cheiro muito mau, mas ouves uma musica muita baixa que vem dentro de uma caixa.")
+       print("\nTentas procurar a caixa.")
        print("Encontras a caixa, abres e dentro dela tem a verdadeira chave do bau.")
        print("\nSais da casa e notas que a chave tem uma bomba que tem um contador de 15 segundos, ou seja tens 15 segundos para encontrar o bau.")
        print("\nMas ao desceres da casa deparas te com a familia do rei da tribo, ja sabes oque vai acontecer.")
@@ -100,3 +100,4 @@ if password == "6TY":
       print("\n...")
       print("Caiste num buraco com mais de 20m, era uma armadilha de uma tribo, tiveste azar.")
       exit()
+   
